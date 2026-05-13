@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(157, 140, 112);
+    color: whitesmoke;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding: 25px;
+    background-color: rgb(123, 155, 168);
+    border: 3px solid #30363d;
+    border-radius: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    color:black
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #edf0f2;
+}
+
+.accroche {
+    margin: 0;
+    max-width: 450px;    
+    font-size: 0.95rem;
+    color: #c9d1d9;
+}
+
+.photo-profil {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: fill;
+    border: 3px solid #30363d;
+}
+
+
+main {
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.bloc {
+    background-color: rgb(123, 155, 168);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border: 3px solid #30363d;
+}
+
+.bloc h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #0b0d10;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 8px 0;
+}
+
+.infos {
+    list-style: none;
+    padding-left: 0;
+}
+
+.infos li {
+    margin-bottom: 4px;
+}
+
+.experience {
+    margin-bottom: 15px;
+}
+
+.experience h4 {
+    margin: 0 0 4px;
+    font-size: 1rem;
+    color: #464b4f;
+}
+
+.meta {
+    margin: 0 0 6px;
+    font-size: 0.9rem;
+    color: #e8eaed;
+}
+
+.projets {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 15px;
+}
+
+.projet {
+    border: 3px solid #30363d;
+    border-radius: 25px;
+    padding: 12px;
+    background-color: rgb(123, 155, 168);
+}
+
+.projet h4 {
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-size: 1rem;
+    color: #0c0e10;
+}
+
+.projet p {
+    margin: 4px 0;
+    font-size: 0.9rem;
+}
+
+.tech {
+    font-style: italic;
+    color: #eff2f5;
+}
+
+.lien-projet {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #5f6164;
+    text-decoration: none;
+}
+
+.lien-projet:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    font-size: 0.85rem;
+    color:black;
+    background-color: rgb(123, 155, 168);
+    border: 3px solid #30363d;
+    border-radius: 25px;
+}
